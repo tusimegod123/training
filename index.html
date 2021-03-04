@@ -4,35 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
     <title>Document</title>
 </head>
 
 <body>
+    <!--First navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"><img src="./images/film-logo.PNG" alt="" srcset="" height="80px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                <a class="nav-item nav-link active" href="#"  id="buyunz">BUYONZ FILMS<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#"  id="lights-image"><img src="./images/lights.PNG" alt="" srcset=""></a>
             </div>
         </div>
     </nav>
+
+    <!--Second navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="navbar-brand"
-            href="#" style="font-weight: 700;">SPORTS/EBYEMIZANYO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            href="#" style="font-weight: 700;">SPORTS/EBYEMIZANYO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse second-nav-left" id="navbarNavAltMarkup" >
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">MASAZZA CUP <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#">LAMINE CUP</a>
@@ -42,30 +45,75 @@
             </div>
         </div>
     </nav>
+
+    <!--First container-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3" style="background-color: rgb(29, 28, 28);">
-                <div style="margin-left: 150px; background-color: rgb(53, 51, 51);">
+            <div class="col-md-3" style="background-color: rgb(29, 28, 28);" >
+                <div  id="left-col-first-container">
                     <button type="button" class="btn "
-                        style="margin: 5px; background-color: rgb(224, 146, 146);width: 153px;">LIVE MATCH</button><br>
-                    <button type="button" class="btn " style="margin: 5px;width: 153px; ">RANKING</button><br>
-                    <button type="button" class="btn" style="margin: 5px; width: 153px;">RESULTS</button><br>
-                    <button type="button" class="btn " style="margin: 5px;">PHOTO GALLARY</button><br>
+                        style="margin: 5px; background-color: rgb(224, 146, 146);width: 183px; height: 30px; border-radius: 25px;">LIVE MATCH</button><br>
+                    <button type="button" class="btn " style="margin: 5px;width: 183px; height: 30px; border-radius: 25px;"> RANKING</button><br>
+                    <button type="button" class="btn" style="margin: 5px; width: 183px; height: 30px; border-radius: 25px;">RESULTS</button><br>
+                    <button type="button" class="btn " style="margin: 5px; width: 180px; border-radius: 25px;height: 30px;">PHOTO GALLARY</button><br>
 
                 </div>
             </div>
             <div class="col-md-9" style="background-color: rgb(99, 114, 80);">
-                <img src="Kcca.PNG" class="rounded float-left" alt="..." style="margin-left: 160px;">
-                <img src="vs.PNG" class="rounded " alt="..." style="margin-left: 250px; padding: 10px;">
+                <img src="./images/Kcca.PNG" class="rounded float-left" alt="..."  id="kcc-image">
+                <img src="./images/vs.PNG" class="rounded " alt="..."  id="vs-image">
 
-                <img src="kcc.PNG" class="rounded float-right" alt="..." style="margin-right: 160px; margin-top: 10px;">
-                <h1 style="font-size: larger; font-weight: 400; margin-left: 550px; color: white;">TUESDAY 5:30 PM</h1>
-                <p style="font-size: larger; font-weight: 200; margin-left: 35px; color: white; text-align: center;">
+                <img src="./images/kcc.PNG" class="rounded float-right" alt="..."  id="vipers-image">
+                <h1  id="match-day">TUESDAY 5:30 PM</h1>
+                <p  id="match-date">
                     22nd-FEB-2021</p>
             </div>
         </div>
     </div>
+
+    <!--cyan container-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style="background-color: cyan; height: 15px;">
+
+            </div>
+        </div>
+    </div>
+
+    <!--Third navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="navbar-brand"
+            href="#" style="font-weight: 700;">EMIKOLO NEMBAGA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse third-nav-left" id="navbarNavAltMarkup" >
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">ONLINE TV <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">WEDDINGS</a>
+                <a class="nav-item nav-link" href="#">INTRODUCTION CEREMONY</a>
+                <a class="nav-item nav-link" href="#">LIVE SHOWS</a>
+                <a class="nav-item nav-link " href="#">DOCUMENTARIES</a>
+                <a class="nav-item nav-link " href="#">PHOTOGRAPHY</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Second container-->
+    <div class="container-fluid" style="background-image: url(./images/wedding.PNG); height: 400px; background-repeat: no-repeat;background-size: cover;">
+        <div class="row">
+            <div class="col-md-4" >
+                <button type="button" class="btn " style="margin-left: 275px; margin-top: 10px; width: 283px; height: 30px; border-radius: 25px;"><span style="color: green; margin-left: -110px; text-align: left;">HOME</span>&nbsp;&nbsp;<SPan style="color: red;">LIVE VIDEO</SPan></button><br>
+                <button type="button" class="btn" style="margin-left: 275px; margin-top: 10px; width: 283px; height: 30px; border-radius: 25px;"> <span style="margin-left: -180px;">RANKING</span> </button><br>
+            </div>
+            <div class="col-md-8">
+
+            </div>
+        </div>
+    </div>
 </body>
+<!--Bootstrap js and jquery-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
